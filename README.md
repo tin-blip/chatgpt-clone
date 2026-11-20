@@ -1,4 +1,3 @@
-
 💬 ChatGPT Clone – AI-Powered Programming Assistant
 
 A full-stack AI-powered conversational application inspired by ChatGPT, built with React, Node.js, Express.js, MySQL, and Google Gemini API.
@@ -38,7 +37,7 @@ Version Control| Git, GitHub
 
 📂 Project Structure
 
-chatgpt-clone/
+```chatgpt-clone/
 │
 ├── backend/
 │   ├── db/
@@ -84,6 +83,7 @@ chatgpt-clone/
 │
 ├── .gitignore
 └── README.md
+```
 
 🖥️ Application Preview
 
