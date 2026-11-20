@@ -37,7 +37,8 @@ Version Control| Git, GitHub
 
 📂 Project Structure
 
-```chatgpt-clone/
+```text
+chatgpt-clone/
 │
 ├── backend/
 │   ├── db/
@@ -66,24 +67,47 @@ Version Control| Git, GitHub
 │
 ├── frontend/
 │   ├── public/
+│   │
 │   ├── src/
 │   │   ├── Components/
 │   │   │   ├── ChatHeader/
+│   │   │   │   ├── ChatHeader.jsx
+│   │   │   │   └── ChatHeader.module.css
+│   │   │   │
 │   │   │   ├── ChatInput/
+│   │   │   │   ├── ChatInput.jsx
+│   │   │   │   └── ChatInput.module.css
+│   │   │   │
 │   │   │   ├── ChatMessage/
+│   │   │   │   ├── ChatMessage.jsx
+│   │   │   │   └── ChatMessage.module.css
+│   │   │   │
 │   │   │   ├── MessageList/
+│   │   │   │   ├── MessageList.jsx
+│   │   │   │   └── MessageList.module.css
+│   │   │   │
 │   │   │   └── Sidebar/
+│   │   │       ├── Sidebar.jsx
+│   │   │       └── Sidebar.module.css
 │   │   │
 │   │   ├── App.jsx
 │   │   ├── index.css
 │   │   └── main.jsx
 │   │
+│   ├── index.html
+│   ├── eslint.config.js
+│   ├── vite.config.js
 │   ├── package.json
 │   └── .gitignore
 │
+├── screenshots/
+│   ├── chat-interface.png
+│   └── programming-response.png
+│
 ├── .gitignore
-└── README.md
+└── [README.md](https://readme.md/)
 ```
+
 
 🖥️ Application Preview
 
